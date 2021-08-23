@@ -5,7 +5,7 @@
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/samuel-dodet/)
 
 
-![Logo](https://github.com/SamuelDodet/Scrapping_RealEstate_Belgium/blob/main/image/logo.png)
+![Logo](https://github.com/SamuelDodet/Belgium_3DHouses/blob/main/static/example.png)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -145,14 +145,10 @@ DSM, DTM and Canopy height model (CHM) are three important terms in this project
 run app.py --> start Flask environment
 
 Put any addresses from provinces previously downloaded in order to visualize 3D Map
-
-You can now visualize the address with the boundary 
-
+![Logo](https://github.com/SamuelDodet/Belgium_3DHouses/blob/main/static/logo.png)
+You can now visualize the address with the boundary
+![Logo](https://github.com/SamuelDodet/Belgium_3DHouses/blob/main/static/example2.png)
 Click on any red contour from any house to have all information about it (Area, Height, ...)
-
-
-![Logo](https://github.com/SamuelDodet/Belgian_Houses_Price_Prediction/blob/main/image/img.png)
-
 
 
 
