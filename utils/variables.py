@@ -1,0 +1,24 @@
+root = "/mnt/3D/"
+data_dir_MNS ="/Volumes/T7/Data/RELIEF_WALLONIE_MNS_2013_2014_GEOTIFF_31370_PROV_HAINAUT/"
+data_dir_MNT ="/Volumes/T7/Data/RELIEF_WALLONIE_MNT_2013_2014_GEOTIFF_31370_PROV_HAINAUT/"
+data_3d = "./BATI3D_2013-2014_FILEGDB_31370/"
+DATAS = {
+    "HAI": {"MNT": f'{data_dir_MNT}RELIEF_WALLONIE_MNT_2013_2014.tif',
+             "MNS": f'{data_dir_MNS}RELIEF_WALLONIE_MNS_2013_2014.tif'}
+    }
+
+# TO SAVE DISK SPACE ONLY THE PROVINCE OF HAINAUT HAS BEEN KEPT
+# "LGE": {
+#         "MNT": f"{data_dir_MNT}RELIEF_WALLONIE_MNT_2013_2014_LIEGE.tif",
+#         "MNS": f"{data_dir_MNS}RELIEF_WALLONIE_MNS_2013_2014_LIEGE.tif",
+# 'HAI': {'MNT': f'{root}RELIEF_WALLONIE_MNT_2013_2014_HAINAUT.tif',
+#         'MNS': f'{root}RELIEF_WALLONIE_MNS_2013_2014_HAINAUT.tif'},
+# 'LUX': {'MNT': f'{root}RELIEF_WALLONIE_MNT_2013_2014_LUX.tif',
+#         'MNS': f'{root}RELIEF_WALLONIE_MNS_2013_2014_LUX.tif'},
+# 'NAM': {'MNT': f'{root}RELIEF_WALLONIE_MNT_2013_2014_NAMUR.tif',
+#         'MNS': f'{root}RELIEF_WALLONIE_MNS_2013_2014_NAMUR.tif'},
+# 'BRA': {'MNT': f'{root}RELIEF_WALLONIE_MNT_2013_2014_BRABANT.tif',
+#         'MNS': f'{root}RELIEF_WALLONIE_MNS_2013_2014_BRABANT.tif'}
+
+
+BATI_3D = f"/Users/samueldodet/Documents/becode_projects/Belgium_3DHouses/BATI3D_2013-2014.gdb"
