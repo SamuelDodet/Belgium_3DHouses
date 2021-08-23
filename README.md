@@ -62,42 +62,18 @@
 - to be able to render a 3D plot
 - to be able to present a final product
 
-### Project steps:
-- #### Data Cleaning
-  * Using given Dataset
-    * Dataset link: https://raw.githubusercontent.com/JulienAlardot/challenge-collecting-data/main/Data/database.csv
-    * Note: We have created our own more complete dataset by a different scrapping approach. 
-      Check it on: https://github.com/SamuelDodet/Scrapping_RealEstate_Belgium
-    * Cleaned Dataset : ./dataset.csv
-    
-
-- #### Data formatting
-  * Creating pipeline for numerical and categorical features
-  * Split Dataset into Train / Test
-  * Normalize Data
-    
-
-- #### Model:
-    * Selection of Model ( XGBoost)
-    * Training Model
-    * Model Saving (Pickle)
-    * Model Evaluation
-
-- #### Application Platform:
-    * Streamlit
-    
-#### Objective:
-Create a program capable of scraping one (or more ?) real estate websites while respecting all constraints.
-
-
 ### Built With
 
 To achieve this challenge, here are the main framework use in it:
 
 * [Pandas](https://pandas.pydata.org/)
-* [Sklearn](https://scikit-learn.org/stable/)
-* [XGBoost](https://xgboost.readthedocs.io/en/latest/)
-* [StreamLit](https://streamlit.io/)
+* [rasterio](https://rasterio.readthedocs.io/en/latest/index.html)
+* [fiona](https://pypi.org/project/Fiona/)
+* [geopandas](https://geopandas.org/)
+* [Shapely](https://shapely.readthedocs.io/en/stable/index.html)
+* [plotly](https://plotly.com/)
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
 
 
 
@@ -112,7 +88,7 @@ To achieve this challenge, here are the main framework use in it:
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:SamuelDodet/House_Pricing_Prediction.git
+   git clone git@github.com:SamuelDodet/Belgium_3DHouses.git
    ```
 2. Install required packages
    ```sh
