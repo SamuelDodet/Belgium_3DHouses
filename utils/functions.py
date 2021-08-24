@@ -47,7 +47,7 @@ def search_address_mapbox(
             address(dict):Details of the address found
     """
     url = "https://api.mapbox.com/geocoding/v5/mapbox.places/{address}.json?types=address&access_token={key}"  # noqa
-    r = requests.get(url.format(address=address, key="pk.eyJ1Ijoic2FtdWVsZDAwNSIsImEiOiJja3FjY3c5azYwZ2tjMm9wNmFkOXlsM3dqIn0.Pm90QsmknhnZ6MVV-Wi-pA"))
+    r = requests.get(url.format(address=address, key="YOUR MAPBOX KEY HERE"))
     if r.status_code != 200:
         raise ErrorRaised("Incorrect reply from Mapbox API")
     r = r.json()
