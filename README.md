@@ -105,6 +105,9 @@ To achieve this challenge, here are the main framework use in it:
 - [Bâtiments 3D 2013-2014]((https://geoportail.wallonie.be/catalogue/4de94d5d-9036-4953-beca-3ff76e4b1ec8.html))
 DSM, DTM and Canopy height model (CHM) are three important terms in this project!:
 <img align="center" src="https://i.stack.imgur.com/1l3EA.png" />
+  
+4. Add your MapBoX KEY in function.py --> search_mapbox_key()
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
