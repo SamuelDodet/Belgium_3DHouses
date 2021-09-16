@@ -146,7 +146,7 @@ if __name__ == "__main__":
     instance.create_chm()
     instance.create_plotly_map()
 
-# instance = Location("38 Rue du roton Charleroi", boundary=100)
+# instance = Location("put any address", boundary=100)
 # instance.find_files()
 # instance.create_chm()
 # instance.create_plotly_map()
