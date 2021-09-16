@@ -113,7 +113,7 @@ DSM, DTM and Canopy height model (CHM) are three important terms in this project
 
 #### 3D Map creation:
 * Start with an address that we want to work from, and the area we want to plot around (let's take boundary=200m!)
-* search_address_mapbox(): will call mapbox's API to return the coordinates of the adress: (X, Y). it will add the boundary around that point to obtain a bounding box that we will plot (xMin, xMax, yMin, yMax)* delete row with outlier value (1€/house, unnatural area, ...)
+* search_address_mapbox(): will call mapbox's API to return the coordinates of the adress: (X, Y). it will add the boundary around that point to obtain a bounding box that we will plot (xMin, xMax, yMin, yMax)
 * find_files(): it will loop through each MNS/MNT file to check if the bounding box fits within.
 * create_chm(): it will first crop the MNS and MNT Tiff files to the correct size, and create the CHM by substracting them.
 * create_plotly_map(): will create the map based on the CHM and save it to HTML in order to use it in Flask
